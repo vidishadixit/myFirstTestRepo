@@ -4,10 +4,13 @@ name = input("Enter your name : ")
 age = int(input("Enter your age :"))
 year = str((2021 - age) + 100)
 print(name + " will be 100 years old in the year " + year)
-
+print("-----------------------------")
 import datetime
 
 now = datetime.datetime.now()
-print(now.year)
 yr = str((now.year - age)+100)
 print(name + " will be 100 years old in the year " + yr)
+print("-----------------------------")
+
+birthyear = str(now.year - age)
+print(name + " was born in the year " + birthyear)

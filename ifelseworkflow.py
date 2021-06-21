@@ -14,4 +14,9 @@ numbers = []
 #for x in range (1500, 2701):
  #   if (x%)
 
+# while loop
 
+it = 4
+while it>=1:
+    print(it)
+    it=it-1
